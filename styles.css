@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: "Montserrat Alternates";
+}
+
+h1{
+	font-size: 100px;
+	color: #a7c7fa;
+	-webkit-text-stroke-width: 2px;
+ 	-webkit-text-stroke-color: #0c244a;
+ 	text-shadow: 0 0 11px white;
+}
+
+body{
+		background-image: url('https://preview.redd.it/f5qe1qykvgr11.jpg?auto=webp&s=40c563c01c40aa3ce91b583fa6f9f6014980e093');
+}
+
+button {
+font-family: "Montserrat Alternates";
+height: 50px;
+width: 150px;
+font-size: 20px;
+margin-bottom: 10px;
+border: 1px solid black;
+border-radius: 30px;
+cursor: pointer;
+color: black;
+text-transform: capitalize;
+}
+
+button:hover{
+	transform: scale(1.1);
+	transition-duration: 0.5s;
+}		
+
+.container{
+	width: 100%;
+	height: 100vh;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.containers{
+	width: 100%;
+	height:  fit-content;
+	/*margin: 0px;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+
+}
+
+.header{
+	height: 100px;
+	width: 940px;
+	margin-bottom: 15px;
+	background-color: #a7c7fa;
+	border-radius: 30px;
+	border: 2px solid #0c244a;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	font-size: 25px;
+
+
+}
+
+.bagiansatu{
+	display: flex;
+}
+
+.avatar{
+	height: 400px;
+	width: 400px;
+	background-color: #a7c7fa;
+	border-radius: 30px;
+	border: 2px solid #0c244a;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.avatar > img {
+	border-radius: 50%;
+	border: 2px solid #0c244a;
+
+}
+
+.namaewa{
+	height: 400px;
+	width: 500px;
+	margin-left:10px;
+	background-color: #a7c7fa;
+	border-radius: 30px;
+	border: 2px solid #0c244a;
+	color: black;
+	font-weight: 600;
+	font-size: 20px;
+	padding-left: 40px;
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+	flex-direction: column;
+}
+
+.namaewa span{
+	font-weight: 400;
+
+}
+
+.bagiandua{
+	height:100px;
+	width: fit-content;
+	padding: 0 20px;
+	margin-top:  15px;
+	background-color: #a7c7fa;
+	border-radius: 30px;
+	border: 2px solid #0c244a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bagiandua a{
+  	background-color: #0c244a;
+  color: #a7c7fa;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.fotokucing{
+	height: fit-content;
+	width: 940px;
+	padding: 20px 10px 0px;
+	background-color: #a7c7fa;
+	border-radius: 30px;
+	border: 2px solid #0c244a;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+}
+
+
+.fotokucing > img {
+	border-radius: 20px;
+	border: 2px solid #0c244a;
+	width: 290px;
+	height: 290px;
+	object-fit: cover;
+	margin-bottom: 20px;
+	/*width: 290px;*/
+	/*height: 290px;*/
+
+}
+
